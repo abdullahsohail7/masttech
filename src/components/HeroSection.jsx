@@ -6,14 +6,14 @@ import GradientBtn from './GradientBtn';
 const HeroSection = (isMenuShown) => {
  const [isVideoPlaying, setIsVideoPlaying] = useState(true);
  const videoRef = useRef();
- const handleVideoPause = () => {
-     videoRef.current.pause();
-     setIsVideoPlaying(false);
- };
- const handleVideoPlay = () => {
-   videoRef.current.play();
-   setIsVideoPlaying(true);
- };
+//  const handleVideoPause = () => {
+//      videoRef.current.pause();
+//      setIsVideoPlaying(false);
+//  };
+//  const handleVideoPlay = () => {
+//    videoRef.current.play();
+//    setIsVideoPlaying(true);
+//  };
   return (
     <div className='flex items-end justify-center w-full h-screen text-center'>
       <video ref={videoRef} src={Vid1} autoPlay loop muted 
@@ -33,11 +33,11 @@ const HeroSection = (isMenuShown) => {
         <div className='py-2 flex flex-row items-center justify-center '>
           <GradientBtn className='py-2 capitalize ' title= 'Portfolios'/>
 
-          {
+          {/* {
             isVideoPlaying ?  <FaPauseCircle size={40} onClick={handleVideoPause} className ='px-2 cursor-pointer hover:scale-110 duration-200'/> :
             <FaPlayCircle size={40} onClick={handleVideoPlay} className='px-2 cursor-pointer hover:scale-110 duration-200 text-blue-800' />
 
-          }
+          } */}
        
         </div>
       </div>
