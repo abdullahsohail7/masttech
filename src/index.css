@@ -11,4 +11,8 @@
     background : black;
     @apply tracking-wider text-gray-200
   }
+  video {
+    height: 100%;
+    width: 100%;
+  }
 }
