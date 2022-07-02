@@ -70,7 +70,7 @@ const Navbar = ({isMenuShown, setIsMenuShown}) => {
 
 
 <div className={`w-full bg-black text-white absolute z-10 left-0 h-fit py-6 lg:hidden flex justify-center text-center text-2xl duration-500 cursor-pointer ${
-    isMenuShown ? "top-16 rounded-b-2xl opacity-95" : "top-[-100%]"}`}>
+    isMenuShown ? "top-8 rounded-b-2xl opacity-95" : "top-[-100%]"}`}>
     <ul>
         {
             links.map(({id, link})=>(
