@@ -1,10 +1,10 @@
 import React, { useRef, useState } from 'react';
 import Vid1 from "../assets/Vid1.mp4";
-import { FaPauseCircle, FaPlayCircle } from 'react-icons/fa';
+// import { FaPauseCircle, FaPlayCircle } from 'react-icons/fa';
 import GradientBtn from './GradientBtn';
 
 const HeroSection = (isMenuShown) => {
- const [isVideoPlaying, setIsVideoPlaying] = useState(true);
+ const [isVideoPlaying] = useState(true);
  const videoRef = useRef();
 //  const handleVideoPause = () => {
 //      videoRef.current.pause();
