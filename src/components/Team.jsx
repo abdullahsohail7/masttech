@@ -35,7 +35,7 @@ style: "shadow-blue-800"}
 ]
   return (
    <PageSection name= 'team' title="Team" subtitle="The MAST Tech. team is a tight-knit, talented group with a shared vision of delivering consistently great results for our clients, as well as ensuring the agency is a fun, inclusive, challenging place to work and develop a rewarding career.">
-<div className='grid grid-cols-3 gap-8 text-white text-center items-center justify-center' >
+<div className='grid grid-cols-2 lg:grid-col-3 gap-8 text-white text-center items-center justify-center' >
 {teams.map(({ id, src, title, subtitle ,children,  style}) => (
             <div
               key={id}
