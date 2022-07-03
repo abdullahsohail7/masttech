@@ -61,7 +61,7 @@ const WhyMast = () => {
 
    
 
-        <div className="bg-gradient-to-r from-blue-900 to-thBlue w-screen-max grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 text-white">
+        <div className="bg-gradient-to-r from-blue-900 to-thBlue w-screen-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 text-white">
           {WhyM.map(({ id, src, title,subtitle, style }) => (
             <div
               key={id}
